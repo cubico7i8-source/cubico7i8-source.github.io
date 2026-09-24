@@ -59,15 +59,10 @@ body.hide-news .layout { grid-template-columns: 280px minmax(0, 1fr); }
 .portrait {
   width: 130px;
   aspect-ratio: 4 / 5;
+  object-fit: cover;
   border-radius: var(--radius-sm);
+  display: block;
   margin: 0 auto;
-  display: grid;
-  place-items: center;
-  font-size: 1.9rem;
-  font-weight: 600;
-  letter-spacing: .08em;
-  color: #fff;
-  background: linear-gradient(160deg, #6d8ba8 0%, #4a6b8a 55%, #34506b 100%);
 }
 .name { font-size: 1.45rem; font-weight: 600; letter-spacing: -.01em; margin-top: 18px; }
 .name-zh { font-weight: 500; color: var(--ink-soft); font-size: 1.15rem; margin-left: 4px; }
